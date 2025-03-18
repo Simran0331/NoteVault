@@ -1,8 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const Oops = ({image,title,buttonTitle,buttonLink}) => {
-
+const Oops = ({image,title,buttonTitle,buttonLink}) => { 
+  
   let navigate = useNavigate();
 
   return (
