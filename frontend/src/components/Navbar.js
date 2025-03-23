@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Avatar from "react-avatar";
-
 const Navbar = () => {
   const navigate = useNavigate();
   const [userData, setUserData] = useState(null);
