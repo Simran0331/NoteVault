@@ -4,7 +4,7 @@ import Avatar from "react-avatar";
 const Navbar = () => {
   const navigate = useNavigate();
   const [userData, setUserData] = useState(null);
-
+  
   function getUserDetails() {
     fetch("https://notesapp-1-56xy.onrender.com/getUserDetails", {
       mode: "cors",
@@ -25,7 +25,7 @@ const Navbar = () => {
         }
       });
   }
-
+  
   useEffect(() => {
     getUserDetails();
   }, []);
@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <nav className="w-full h-20 bg-gradient-to-r from-indigo-500 to-purple-500 px-10 flex items-center justify-between shadow-lg">
       <div className="text-3xl font-bold text-white tracking-wide cursor-pointer" onClick={() => navigate("/")}>NotePad</div>
-      
+  
       <div className="flex items-center gap-6">
         <button
           className="px-6 py-2 bg-white text-indigo-600 font-semibold rounded-lg shadow-md hover:bg-gray-200 transition duration-300"
