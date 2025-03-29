@@ -14,7 +14,7 @@ const Footer = () => {
         </p>
         <p className="text-sm">&copy; 2024 All Rights Reserved</p>
       </div>
-
+    
       <div className="text-center">
         <p className="font-semibold text-lg">We Are Social</p>
         <div className="flex items-center gap-3 mt-2">
