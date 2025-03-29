@@ -8,7 +8,7 @@ const Note = ({ note, height, index, setDeleteNote }) => {
 
   const editNote = (id) => {
     navigate(`/editNote/${id}`);
-  };
+  }:
 
   return (
     <>
