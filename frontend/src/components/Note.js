@@ -6,9 +6,10 @@ const colors = ["#B2FFFF", "#FFFF00", "#FFB6C1", "#98FB98", "#E6E6FA"];
 const Note = ({ note, height, index, setDeleteNote }) => {
   let navigate = useNavigate();
   
-  const editNote = (id) => {
+    const editNote = (id) => {
     navigate(`/editNote/${id}`);
-  }:
+  };
+
   
   return (
     <>
